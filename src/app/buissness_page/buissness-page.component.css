@@ -13,10 +13,13 @@ Page {
   margin-bottom: 10vh;
   color: white;
   border-radius: 20%;
+  border-radius: 100vh;
+  font-weight: 900;
+  margin: 30vh 0;
 }
 .grid-top {
   background-color: #00a9a5;
-  height: 190;
+  height: 180;
 }
 .bold-6 {
   font-weight: 500;
@@ -34,11 +37,12 @@ Page {
   background-color: #ffffff;
   justify-content: center;
   text-align: center;
-  margin-top: 50vh;
+  margin-top: 60vh;
 }
 
 .round {
-  border-radius: 10%;
+  border-radius: 13%;
+  margin-top: 65;
 }
 .profile {
   border-color: #00a9a5;
@@ -46,25 +50,12 @@ Page {
   border-width: 6vh;
   border-radius: 100%;
   z-index: 1000;
+  width: 130;
+  height: 130;
+  vertical-align: top;
 }
 
-.button {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  color: white;
-  width: 50vh;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-}
 .arrowBack {
   color: white;
-  margin-top: 92vh;
-  margin-left: 20vh;
-}
-.refundbtn {
-  border-radius: 100vh;
-  font-weight: 900;
-  margin: 30vh 0;
+  margin-top: 50;
 }

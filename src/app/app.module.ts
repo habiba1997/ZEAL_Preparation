@@ -7,7 +7,6 @@ import { BuissnessPageComponent } from "./buissness_page/buissness-page.componen
 
 import { NativeScriptMaterialCardViewModule } from "@nativescript-community/ui-material-cardview/angular";
 
-import { TNSFontIconModule } from 'nativescript-ngx-fonticon';
 
 @NgModule({
     bootstrap: [
@@ -17,9 +16,7 @@ import { TNSFontIconModule } from 'nativescript-ngx-fonticon';
         NativeScriptModule,
         AppRoutingModule,
         NativeScriptMaterialCardViewModule,
-        TNSFontIconModule.forRoot({
-            'fa': './assets/fontawesome.css'
-        })
+        
     ],
     declarations: [
         AppComponent,

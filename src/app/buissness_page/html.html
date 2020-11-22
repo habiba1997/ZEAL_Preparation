@@ -1,0 +1,60 @@
+
+<GridLayout rows="auto, *">
+    <GridLayout row="0" class="grid-top" >
+        <Label text="&#xf104;" 
+        class="fas arrowback"></Label>  
+    </GridLayout>
+    
+    
+    <GridLayout row="1" backgroundColor="#f8f8fa">
+    </GridLayout>    
+</GridLayout>
+   
+<AbsoluteLayout>
+    
+    <Image src="{{http}}" left="140" top="70" 
+                          width="130" height="130" class="profile"></Image>
+    
+    <MDCardView class="round" left="20" top="150"  width="370" >
+            <StackLayout class="card">
+                
+                <Label class="h1" style="font-weight: 800;" text="{{title}}" > </Label>
+                <Label class="h3" style="margin-top: -8" text="{{location}}"></Label>
+                <Label class="h3 grey m-t-5 m-b-5" text="{{date}}" ></Label> 
+                <Label class="h2 bold-9" style="margin-bottom: -5;" text="Total Spent" ></Label>
+                <Label class="h1 bold-9" style="margin-top: -5;" text="{{totalSpent}}EGP" ></Label> 
+                <Label class="h5 grey bold-6"  style="margin-top: -5;" text="YOU GOT"></Label>              
+                <DockLayout >
+                    <Label dock="left" text="{{numberOfPunches}} PUNCHES" 
+                    class="h4 bold-9 color-green text-left"></Label>
+                    <Label dock="right" text="{{zealCoins}} Zeal Coins"  
+                    class="h4 bold-9 color-green text-right" ></Label>
+                </DockLayout> 
+                
+                
+                <StackLayout class="hr m-10 m-t-20"></StackLayout>
+                
+                <DockLayout>   
+                    <Label class="h6 text-left grey bold-6" 
+                            text="PAYMENT DETAILS" 
+                            dock="left"></Label> 
+                    <Label class="h5 grey bold-6 text-right" 
+                           text="{{paymentDetails}}"
+                           dock="right"></Label>
+                </DockLayout>
+
+                <DockLayout >
+                    <Label class="h3 bold-9 text-left" 
+                           text="Transaction Number: "
+                           dock="left"></Label> 
+                    <Label class="h3 grey bold-6 text-right"
+                           dock="right" 
+                           text="{{transactionNumber}}"></Label>
+                </DockLayout>
+             
+                <Button  class="refundbtn"
+                        text="Refund"></Button>
+
+            </StackLayout>       
+    </MDCardView>
+</AbsoluteLayout>

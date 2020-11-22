@@ -7,10 +7,5 @@ import { TNSFontIconService } from 'nativescript-ngx-fonticon';
     templateUrl: "./app.component.html"
 })
 export class AppComponent { 
-    constructor(
-        fonticon: TNSFontIconService,
-    )
-    {
-        
-    }
+    
 }
