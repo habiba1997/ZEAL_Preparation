@@ -3,10 +3,11 @@ import { NativeScriptModule } from "@nativescript/angular";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { ItemsComponent } from "./item/items.component";
-
+import { BuissnessPageComponent } from "./buissness_page/buissness-page.component";
 
 import { NativeScriptMaterialCardViewModule } from "@nativescript-community/ui-material-cardview/angular";
+
+import { TNSFontIconModule } from 'nativescript-ngx-fonticon';
 
 @NgModule({
     bootstrap: [
@@ -16,10 +17,13 @@ import { NativeScriptMaterialCardViewModule } from "@nativescript-community/ui-m
         NativeScriptModule,
         AppRoutingModule,
         NativeScriptMaterialCardViewModule,
+        TNSFontIconModule.forRoot({
+            'fa': './assets/fontawesome.css'
+        })
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
+        BuissnessPageComponent,
     ],
     providers: [],
     schemas: [

@@ -4,19 +4,19 @@ Page {
 }
 
 .color-green {
-  color: #00a9a6;
+  color: #00a9a5;
 }
 
 .card Button {
   padding: 0%;
-  background-color: #00a9a6;
+  background-color: #00a9a5;
   margin-bottom: 10vh;
   color: white;
   border-radius: 20%;
 }
 .grid-top {
-  background-color: #00a9a6;
-  height: 130;
+  background-color: #00a9a5;
+  height: 190;
 }
 .bold-6 {
   font-weight: 500;
@@ -25,7 +25,7 @@ Page {
   font-weight: 900;
 }
 .grey {
-  color: #a8a8a8;
+  color: #adacac;
 }
 .card {
   margin-left: 10vh;
@@ -37,10 +37,34 @@ Page {
   margin-top: 50vh;
 }
 
+.round {
+  border-radius: 10%;
+}
 .profile {
-  border-color: #00a9a6;
+  border-color: #00a9a5;
   border-style: solid;
   border-width: 6vh;
   border-radius: 100%;
   z-index: 1000;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  color: white;
+  width: 50vh;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.arrowBack {
+  color: white;
+  margin-top: 92vh;
+  margin-left: 20vh;
+}
+.refundbtn {
+  border-radius: 100vh;
+  font-weight: 900;
+  margin: 30vh 0;
 }
